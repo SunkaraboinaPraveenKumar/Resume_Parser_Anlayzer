@@ -19,6 +19,7 @@ import plotly.express as px
 import nltk
 
 nltk.download('stopwords')
+
 from pytube import YouTube
 
 def fetch_yt_video(link):
